@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JawaUA — Запчастини Jawa 350</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background: #c40000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 8px 0 0;
+        }
+
+        .hero {
+            background: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .catalog {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .catalog h2 {
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .product h3 {
+            margin: 10px 0;
+        }
+
+        .price {
+            color: #c40000;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        button {
+            background: #c40000;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #900000;
+        }
+
+        footer {
+            margin-top: 40px;
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>JawaUA</h1>
+    <p>Запчастини та аксесуари для Jawa 350</p>
+</header>
+
+<section class="hero">
+    <h2>Ласкаво просимо до JawaUA!</h2>
+    <p>Все необхідне для твоєї Jawa 350 в одному місці.</p>
+</section>
+
+<section class="catalog">
+    <h2>Каталог запчастин</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <h3>Свічка запалювання</h3>
+            <p>Для Jawa 350</p>
+            <p class="price">250 грн</p>
+            <button>Купити</button>
+        </div>
+
+        <div class="product">
+            <h3>Ланцюг</h3>
+            <p>Ланцюг приводу Jawa 350</p>
+            <p class="price">850 грн</p>
+            <button>Купити</button>
+        </div>
+
+        <div class="product">
+            <h3>Гальмівні колодки</h3>
+            <p>Для Jawa 350</p>
+            <p class="price">600 грн</p>
+            <button>Купити</button>
+        </div>
+
+        <div class="product">
+            <h3>Повітряний фільтр</h3>
+            <p>Фільтр для Jawa 350</p>
+            <p class="price">450 грн</p>
+            <button>Купити</button>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 JawaUA</p>
+    <p>Сайт запчастин Jawa 350</p>
+</footer>
+
+</body>
+</html>
